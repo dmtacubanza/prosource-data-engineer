@@ -47,7 +47,7 @@ COUNT bar
 
 DELETE a
 
-**Output: DELETE a**
+**Output: Key DELETED**
 
 COUNT foo
 
