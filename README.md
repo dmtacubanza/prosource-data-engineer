@@ -14,11 +14,12 @@ COMMIT: Commits all open transactions and makes changes permanent.
 END: Exits the database.
  
 **1. Local Setup Instructions:**
+
 	Using Visual Studio Code, follow these steps:
-		Install Python on your system with a supported version _(Used version in the demo: Python 3.11)_ **(Note: Using macOS is not supported in this demo)**
-		Make sure to install also the Python extension 
-		Select **Python Interpreter** from the Status Bar
-		Open Terminal and Run the Python script using Python.exe, for example:
+		A. Install Python on your system with a supported version _(Used version in the demo: Python 3.11)_ **(Note: Using macOS is not supported in this demo)**
+		B.. Make sure to install also the Python extension
+		C. Select **Python Interpreter** from the Status Bar
+		D. Open Terminal and Run the Python script using Python.exe, for example:
 
 	& C:/python.exe C:/inmemorydatabase.py
 
