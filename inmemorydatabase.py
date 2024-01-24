@@ -6,7 +6,7 @@ class inMemDB:
 
     def set(self, key, val):
         self.data[key] = val
-        print(f"SET {key} => {val}")
+        print(f"Key {key} with value {val} is SET")
 
     def get(self, key):
         value = self.data.get(key, "NULL")
@@ -15,7 +15,7 @@ class inMemDB:
     def delete(self, key):
         if key in self.data:
             del self.data[key]
-            print(f"DELETE {key}")
+            print(f"Key {key} DELETED")
         else:
             print(f"Cannot find the key: {key}")
 
