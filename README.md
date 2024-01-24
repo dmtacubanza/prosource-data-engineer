@@ -1,4 +1,4 @@
-Welcome to In-Memory-Database Python program
+# Welcome to In-Memory-Database Python program
 
 This Python program is implement an in-memory database interaction using a CLI or command-line interface.
 TThis Python program reads an STDIN line by line, that can execute various database functions.
@@ -25,40 +25,40 @@ END: Exits the database.
 2. Sample test case here. Input the following lines with expected output in **bold characters**:
 
 GET a
-# Output: NULL
+Output: NULL
 
 SET a foo
-# Output: SET a => foo
+Output: SET a => foo
 
 SET b foo
-# Output: SET b => foo
+Output: SET b => foo
 
 COUNT foo
-# Output: COUNT foo => 2
+Output: COUNT foo => 2
 
 COUNT bar
-# Output: COUNT bar => 0
+Output: COUNT bar => 0
 
 DELETE a
-# Output: DELETE a
+Output: DELETE a
 
 COUNT foo
-# Output: COUNT foo => 1
+Output: COUNT foo => 1
 
 SET b baz
-# Output: SET b => baz
+Output: SET b => baz
 
 COUNT foo
-# Output: COUNT foo => 0
+Output: COUNT foo => 0
 
 GET b
-# Output: GET b => baz
+Output: GET b => baz
 
 GET B
-# Output: GET B => NULL
+Output: GET B => NULL
 
 END
-# Output: END
+Output: END
 
 The provided commands demonstrate basic usage of the in-memory database functionality.
 Feel free to explore and experiment with additional commands as needed.
